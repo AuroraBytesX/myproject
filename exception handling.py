@@ -14,8 +14,8 @@ def largest(a,b):
     
 
 try:
-    x=int(input("enter first number :"))
-    y=int(input("enter second number :"))
+    x=int(input("enter first no :"))
+    y=int(input("enter second no :"))
     largest(x,y)
 except ValueError:
     print("please enter int")
